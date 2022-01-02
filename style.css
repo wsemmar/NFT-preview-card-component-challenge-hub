@@ -1,0 +1,133 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  border-radius: 10px;
+  margin: 0 43em;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10%;
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: 0px 10px 0px 17px rgba(0, 0, 0, 0.1);
+}
+.article {
+  align-self: center;
+  background-color: none;
+}
+.article img {
+  border-radius: 10px;
+  height: 19em;
+}
+.bg {
+  position: absolute;
+  top: 25px;
+  left: 24px;
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 10px;
+  padding: 126px;
+  width: 53px;
+  height: 52px;
+  opacity: 0;
+}
+.view {
+  position: absolute;
+  top: 151px;
+  left: 151px;
+  opacity: 0;
+}
+.article:hover .bg {
+  opacity: 0.5;
+}
+.article:hover .view {
+  opacity: 1;
+}
+.title {
+  color: hsl(0, 0%, 100%);
+  padding: 1em 0 0 0;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.title:hover {
+  color: hsl(178, 100%, 50%);
+}
+.description {
+  color: hsl(215, 51%, 70%);
+  padding: 1em 0 0 0;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+.details {
+  padding: 1.5em 0 1.5em;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+.price svg {
+  padding-right: 8px;
+}
+.stock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+.stock svg {
+  padding-right: 8px;
+}
+
+.autor img {
+  height: 2em;
+  border-radius: 4em;
+  border: 1px solid white;
+  margin-right: 15px;
+}
+.autor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-top: 0.5px solid hsl(215, 32%, 27%);
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 1em 0 0;
+}
+.autor span {
+  color: hsl(0, 0%, 100%);
+}
+.autor span:hover {
+  color: hsl(178, 100%, 50%);
+}
+.attribution {
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: hsl(215, 51%, 70%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.article img :hover {
+  opacity: 1;
+  background-color: aqua;
+}
